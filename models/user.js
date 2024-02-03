@@ -14,7 +14,7 @@ const  userSchema=mongoose.schema({
         type:String,
         required:true
     },
-    name:{
+    role:{
         type:String,
         enum:["buyer","seller"]
     }
